@@ -1,0 +1,9 @@
+Escopo de Variáveis
+
+Local: declarada em uma função
+
+Global: declarada fora de uma função
+
+Static: declarada em uma função, porém o seu valor permanece entre chamadas da função
+
+Parâmetro de Função: passada para uma função, e podendo ser utilizada dentro da mesma
