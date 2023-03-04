@@ -4,7 +4,7 @@
     $agePerson2 = 32;
     $agePerson3 = 18;
 
-    $testingOperators = (($agePerson2 - $agePerson1) * $agePerson3) / 2;
+    $testingOperators = (($agePerson2 - $agePerson1) * $agePerson3) / 2; // 24
 
     echo $testingOperators;
     echo "<br>";
