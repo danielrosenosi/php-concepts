@@ -1,0 +1,10 @@
+DESCRIÇÃO SOBRE OS OPERADORES DE COMPARAÇÃO
+
+IGUALDADE: == (retorna TRUE se o valor for igual)
+IDÊNTICO A: === (retorna TRUE apenas se o VALOR e o TIPO forem idênticos)
+DIFERENÇA: !=
+NÃO IDÊNTICO A: !== (retorna TRUE apenas se o VALOR e TIPO forem totalmente diferentes)
+MAIOR QUE: >
+MAIOR OU IGUAL QUE: >=
+MENOR QUE: <
+MENOR OU IGUAL QUE: <=
