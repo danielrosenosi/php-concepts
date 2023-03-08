@@ -1,0 +1,5 @@
+OPERADORES LÓGICOS
+
+OPERADOR AND (e/é): &&
+OPERADOR OR(ou): || 
+OPERADOR NOT(não é): !
