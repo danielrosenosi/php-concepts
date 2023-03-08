@@ -7,7 +7,7 @@
     $agePerson1 = 25;
     $agePerson2 = 32;
 
-    if($agePerson1 . $agePerson2) {
+    if($agePerson1 . $agePerson2) { 
         echo "É string <br>";
     } else {
         echo "Não é string <br>";
