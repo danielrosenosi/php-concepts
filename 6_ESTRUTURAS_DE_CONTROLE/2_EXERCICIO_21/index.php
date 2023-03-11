@@ -1,20 +1,14 @@
 <?php
 
-    $valueOne = 5;
-    $valueTwo = 2;
-    $valueThree = 12;
-    $valueFour = 11;
-    $valueFive = "Pedro";
-    $valueSix = "Matheus";
+    $data = [
+        ["name" => "Daniel", "age" => 17],
+        ["name" => "Gabriel", "age" => 21]
+    ];
 
-    if($valueOne > $valueTwo) {
-        echo "5 é maior que 2 <br>";
-    }
-
-    if($valueSix != $valueFive) {
-        echo "Mathues é diferente de Pedro <br>";
-    }
-
-    if($valueThree <= $valueFour) {
-        echo "12 é menor ou igual a 11 <br>";
+    foreach($data as $user) {
+        if ($user["age"] >= 18) {
+            echo $user["name"] . " é maior de idade <br>";
+        } else {
+            echo $user["name"] . " é menor de idade <br>";
+        }
     }
