@@ -1,0 +1,4 @@
+A função tem seu escopo local, onde variáveis que são declaradas dentro delas,
+só podem serem utilizadas lá. PORÉM, se retornarmos essas variáveis através do return
+na função... Logo, se chamarmos essa função que retorna as variáveis, teremos o valor dessas variáveis
+e poderemos utilizar onde chamarmos a mesma...
