@@ -1,7 +1,7 @@
 <?php
 
     function setCarColor($color = "Vermelha") {
-        return $color;
+        return "A cor do carro é: {$color}";
     }
 
     echo setCarColor(); //Vermelha, pois não passei parâmetro, então ela retorna o valor default
