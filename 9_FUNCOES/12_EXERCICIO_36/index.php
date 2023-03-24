@@ -12,6 +12,10 @@
         return implode(", ", $newArray);
     }
 
-    $values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    $ages = [];
 
-    echo returnsArrayWithGreaterThanSeven($values);
+    for($index = 0; $index <= 10; $index++) {
+        array_push($ages, $index);
+    }
+
+    echo returnsArrayWithGreaterThanSeven($ages);
