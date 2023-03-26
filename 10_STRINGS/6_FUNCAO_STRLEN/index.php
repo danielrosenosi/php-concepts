@@ -8,7 +8,7 @@
     echo strlen($nameTwo) . "<br>"; //Imprimiu 7 caracteres, pois o espaço também é um caractere
 
     if(strLen($nameOne) > strlen($nameTwo))  {
-        echo "O nome um é maior que o nome dois";
+        echo "A string um é maior que o nome dois";
     } else {
-        echo "O nome dois é maior que o nome um";
+        echo "A string dois é maior que o nome um";
     }
