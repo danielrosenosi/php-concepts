@@ -1,19 +1,21 @@
 <?php
 
     $str = "Carlos Daniel Roseno de Lima";
+    $searchStringOne = "Lima";
+    $searchStringTwo = "Silva";
 
-    echo strpos($str, "Roseno") . "<br>"; //Ele imprime o indíce onde se inicia a string buscada
+    echo strpos($str, $searchStringOne) . "<br>"; //Ele imprime o indíce onde se inicia a string buscada
     
-    echo strpos($str, "Silva"); //Não imprime nada, retornou false, pois não existe a string dentro da string buscada
+    echo strpos($str, $searchStringTwo); //Não imprime nada, retornou false, pois não existe a string dentro da string buscada
 
-    if(strpos($str, "Lima")) {
-        echo "O usuário tem o sobrenome Lima";
+    if(strpos($str, $searchStringOne)) {
+        echo "O usuário tem o sobrenome {$searchStringTwo}";
     } else {
-        echo "O usuário não tem o sobrenome Lima";
+        echo "O usuário não tem o sobrenome {$searchStringTwo}";
     }
 
     echo "<br>";
 
-    if(!strrpos($str, "Silva")) {
-        echo "O usuário não tem o sobrenome Silva, ele não passou no teste";
+    if(!strrpos($str, $searchStringTwo)) {
+        echo "O usuário não tem o sobrenome {$searchStringTwo}, ele não passou no teste";
     }
