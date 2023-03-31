@@ -8,6 +8,15 @@
     
     $featuresDog = compact('name', 'color', 'race', 'age');
 
-    foreach($featuresDog as $feature) {
-        echo $feature . "<br>";
+    foreach($featuresDog as $feature => $value) {
+        echo "{$feature}: {$value} <br>";
     }
+
+    /*  
+        RESULTADO:
+        
+        name: Jack
+        color: Marrom
+        race: Labrador
+        age: 5
+    */
