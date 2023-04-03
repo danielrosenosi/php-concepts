@@ -1,6 +1,10 @@
 <?php
 
     /*
+        As funções sort() e rsort() do PHP, não funcionam em array associativos
+    */
+
+    /*
         sort() => coloca em ordem crescente (para números), coloca na ordem de A à Z (para letras)
         rsort() => coloca em ordem decrescente (para números), coloca na ordem de Z à A (para letras)
     */
