@@ -1,0 +1,7 @@
+EXISTEM TRÊS FORMATOS DE VISIBILIDADE: public, protected e private
+
+public: A propriedade (variável) ou método (function) pode ser acessada de qualquer forma
+
+protected: A propriedade ou método pode ser acessada apenas pela classe de origem ou as que recebem a mesma de herança
+
+private: A propriedade ou método pode ser acessada apenas pela classe que foi criada
