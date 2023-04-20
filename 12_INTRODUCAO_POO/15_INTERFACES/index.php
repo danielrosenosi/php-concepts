@@ -1,11 +1,13 @@
 <?php
 
+    //TUDO QUE ESTIVER AQUI, TEM QUE ESTAR NA CLASS EM QUE A INTERFACE FOR IMPLEMENTADA
     interface Features {
         const name = "Carlos";
 
         public function speak();
     }
 
+    //TUDO QUE ESTÁ NA INTERFACE FEATURES, VAI TER QUE ESTAR NESSA CLASS HUMAN, SE NÃO, O PHP RECLAMA
     class Human implements Features {
         public $age = 29;
 
