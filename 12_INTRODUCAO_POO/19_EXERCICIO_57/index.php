@@ -3,9 +3,9 @@
     class Dog
     {
         
-        public $name;
-        public $race;
-        public $age;
+        public string $name;
+        public string $race;
+        public int $age;
 
         public function __construct($name, $race, $age)
         {
