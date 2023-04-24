@@ -1,0 +1,7 @@
+MÉTODOS HTTP:
+
+GET => Solicita a apresentação de um recurso, poder ser trazer dados ou a visualização de uma página por exemplo
+POST => Envio de dados ao servidor (ex: Cadastro de um usuário)
+PUT => Atualização de dados
+DELETE => Remoção de dados
+PATCH => Atualização de dado específico
