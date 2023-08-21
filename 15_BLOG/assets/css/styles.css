@@ -216,3 +216,49 @@ footer {
     color: #fff;
     padding: 20px 0;
 }
+
+/* MOBILE */
+
+@media(max-width: 480px) {
+    /* HOME */
+    header, footer {
+        width: 100%;
+    }
+
+    #logo {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #title_container {
+        min-width: 100%;
+        margin-top: 20px;
+    }
+
+    #post_container {
+        margin-top: 20px;
+    }
+
+    .post-box {
+        flex: 100% 1 0;
+        padding: 15px;
+        margin: 0;
+    }
+
+    /* POST CONTAINER */
+    #post_container {
+        grid-template-columns: 100%;
+        grid-template-areas: "main" "sidebar";
+        padding: 15px;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+}
