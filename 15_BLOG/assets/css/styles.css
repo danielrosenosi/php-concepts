@@ -127,6 +127,86 @@ body {
     color: #999;
 }
 
+/* POST */
+
+#post_container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: "main sidebar";
+    grid-gap: 10px;
+    padding-top: 30px;
+    max-width: 1200px;
+    margin: 0 auto 250px;
+}
+
+#main_title {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#content_container {
+    grid-area: main;
+}
+
+#post_description {
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.post_content {
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.img-container {
+    margin-bottom: 30px;
+}
+
+.img-container img {
+    width: 60%;
+}
+
+/* POST ASIDE */
+
+#nav_container {
+    grid-area: sidebar;
+}
+
+#tags_title, #categories_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#categories_title {
+    margin-top: 20px;
+}
+
+#tag_list, #categories_list {
+    list-style: none;
+}
+
+#tag_list li, #categories_list li {
+    margin-bottom: 10px;
+}
+
+#tag_list li a, #categories_list a {
+    color: #666;
+    transition: .5s;
+}
+
+#tag_list li, #categories_list a:hover {
+    color: #000;
+    transition: .5s;
+}
+
+/* FOOTER */
+
 footer {
     width: 100%;
     position: absolute;
